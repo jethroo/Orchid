@@ -23,11 +23,15 @@ Include Orchid in your Maven project by adding following to the `pom.xml`
     <repositories>
       <repository>
         <id>orchid-mvn-repo</id>
-          <url>https://raw.github.com/jethroo/orchid/mvn-repo/</url>
-        <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-        </snapshots>
-    </repository>
-  </repositories>
-```
+        <url>https://raw.github.com/jethroo/orchid/mvn-repo/</url>
+      </repository>
+    </repositories>
+
+    <dependencies>
+		<dependency>
+			<groupId>com.subgraph.orchid</groupId>
+			<artifactId>orchid</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+    </dependencies>
+ ```
